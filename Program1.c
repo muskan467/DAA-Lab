@@ -4,22 +4,22 @@
   
 int main()
 {
-    int a[20],i,x,n;
-    printf("How many elements?");
-    scanf("%d",&n);
+    int arr[20],i,key,size;
+    printf("Enter no of elements in array:");
+    scanf("%d",&size);
      
-    printf("Enter array elements:n");
-    for(i=0;i<n;++i)
-        scanf("%d",&a[i]);
+    printf("Enter array elements:");
+    for(i=0;i<size;++i)
+        scanf("%d",&arr[i]);
      
-    printf("nEnter element to search:");
-    scanf("%d",&x);
+    printf("Enter element to search:");
+    scanf("%d",&key);
      
-    for(i=0;i<n;++i)
-        if(a[i]==x)
+    for(i=0;i<size;++i)
+        if(arr[i]==key)
             break;
      
-    if(i<n)
+    if(i<size)
         printf("Element found at index %d",i);
     else
         printf("Element not found");
