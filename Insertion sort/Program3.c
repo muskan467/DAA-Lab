@@ -1,5 +1,3 @@
-//C program on Insertion sort
-
 #include<stdio.h>
 
 int main()
@@ -23,6 +21,6 @@ int main()
       }
     printf("Sorted elements:");
     for(i=0;i<num;i++)
-        printf("%d",ele[i]);
+        printf("%d ",ele[i]);
     return 0;
   }
