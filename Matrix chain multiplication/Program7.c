@@ -1,4 +1,3 @@
-//C implementation of Matrix Chain Multiplication
 #include<stdio.h> 
 
 int matrixChainOrder(int p[], int i, int j) 
@@ -21,8 +20,7 @@ int main()
 { 
     int arr[] = {10, 100, 5, 50};
     int n = sizeof(arr)/sizeof(arr[0]); 
-    printf("Minimum no of Scalar Multiplication is  %d\n", 
-           matrixChainOrder(arr, 1, n-1 )); 
-    getchar();
+    printf("Minimum no of Scalar Multiplication is %d\n", matrixChainOrder(arr, 1, n-1 )); 
+
     return 0; 
 } 
