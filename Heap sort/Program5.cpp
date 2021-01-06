@@ -1,6 +1,6 @@
-// C program for implementation of Heap Sort
+#include<iostream>
 
-#include<stdio.h>
+using namespace std;
 
 void heapify(int arr[], int n, int i)
 {
@@ -49,4 +49,6 @@ int main()
 
 	cout << "Sorted array is \n";
 	printArray(arr, n);
+	
+	return 0;
 }
